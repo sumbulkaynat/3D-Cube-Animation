@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 .cube{
     display: inline-block;
     height:200px;
@@ -17,39 +21,56 @@
     top:20%;
     left: 20%;
     transition: all 1s;
-    opacity: 0.2;
+   
     border: 2px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
     
 }
 
 .one{
     background-color: skyblue;
+    background-image: url(2.jpg);
+    
    
 }
 
 .two{
     background-color: orange;
     transform: rotateY(90deg) translateZ(-100px) translateX(-100px);
+    background-image: url(3.jpg);
+   
 }
 
 .three{
     background-color: red;
 
     transform: rotateY(90deg) translateX(-100px) translateZ(100px);
+    
+     background-image: url(4.jpg);
 }
 .four{
     background-color: chartreuse;
     transform: translateZ(200px);
+    
+    background-image: url(1.jpg);
+    
 }
 
 .five{
     background-color: darkviolet;
     transform: rotateX(90deg) translateZ(100px) translateY(100px);
+   
+    background-image: url(5.jpg);
 }
 
 .six{
     background-color: blue;
     transform: rotateX(90deg) translateZ(-100px) translateY(100px);
+    
+    background-image: url(6.jpg);
     
 }
 
